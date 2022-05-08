@@ -4,7 +4,13 @@ import './Home.css';
 const Home = () => (
   <div id="home-container">
     <h1 className="title is-1">Welcome to E-transportation services</h1>
-    <img src="./images/transport.png" alt="transport" className="transport-container"/>
+    <div class="parent">
+	<img
+		class="responsive-image transport-container"
+		src="./images/transport.png"
+		alt="random pic for display"
+	/>
+</div>
     <div className="link">
     <Link to="/signup" className="link-link">
       Click here to continue
