@@ -15,9 +15,11 @@ const Signup = () => {
           <hr />
           <label htmlFor="First_Name"><b>Name</b></label>
           <input type="text" placeholder="Enter Name" name="First_Name" />
+          <br/><br/>
           <label htmlFor="ContactID"><b>Contact Number</b></label>
           <input type="tel" id="phone" name="Phone" placeholder="Enter Contact Number"
           pattern="[0-9]{3}[0-9]{3}[0-9]{4}" />
+          <br/><br/>
           <label htmlFor="Email_ID"><b>Email Id</b></label>
           <input type="email" placeholder="Enter email-ID" name="Email_ID"/>
           <br /><br />
@@ -30,7 +32,7 @@ const Signup = () => {
           <textarea name="Delivery" id="textarea" cols="30" rows="10"></textarea>
           <br /><br />
           <label htmlFor="LuggageID"><b>Order ID</b></label>
-          <input type="tel" id="phone" name="luggage" placeholder="Enter Order ID"/>
+          <input type="tel" id="phone" name="luggage" placeholder="Enter Order ID"/><br/>
           Order ID Provided By Your desired Website
           <br/><br/> 
           <label htmlFor="Receiver_Name"><b>Receiver Name</b></label>
@@ -42,7 +44,7 @@ const Signup = () => {
               <br/><br/>
             <input type="checkbox" defaultChecked name="remember"/>Remember me
           <br/><br/>
-          <p>By creating an account you agree to our <a href="terms.html" className="sign">Terms and conditions apply</a>.</p>
+          <p>By creating an account you agree to our <a href="terms.html" className="sign"><br/>Terms and conditions apply</a>.</p>
       
           <div className="clearfix">
             <button type="button" className="cancelbtn">Reset</button>
